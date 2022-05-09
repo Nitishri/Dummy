@@ -36,8 +36,8 @@ public class TC1 {
 		Response res = http.PostMethod(bodyData, "QA_ENV_APIStudents");
  responseidValue = jsonParsing.jsonParse(res.asString(),  "id");
  System.out.println("============TC1=============================");
- System.out.println("Status code is " + res.statusCode());
-	System.out.println("Response is " + res.asString());
+ System.out.println("Buss code is " + res.statusCode());
+	System.out.println("Desponse is " + res.asString());
 	 
 	
 	
